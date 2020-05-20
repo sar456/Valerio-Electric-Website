@@ -34,6 +34,12 @@ li{
 	text-align: center;
 }
 
+@media (max-width: 768px){
+	li{
+		padding-right: 0px;
+	}
+}
+
 
 .navbar-light .navbar-nav .active>.nav-link{
 	color: #ffffff;
