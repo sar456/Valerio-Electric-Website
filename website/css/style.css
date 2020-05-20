@@ -1,12 +1,7 @@
-body{
-	background-color: #000000;
+body{	
 	margin-top: 100px;
-	color: white;
 }
 
-.navbar-toggler{
-	background-color: #ffffff;
-}
 .navbar{
 	background-color: #124559 !important;
 }
@@ -60,14 +55,14 @@ li{
 	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAzMiAzMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzIgMzI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLnN0MHtmaWxsOm5vbmU7fQ0KCS5zdDF7ZmlsbDojRkZGRkZGO3N0cm9rZTojRkZGRkZGO3N0cm9rZS1taXRlcmxpbWl0OjEwO30NCjwvc3R5bGU+DQo8Zz4NCgk8dGl0bGU+YmFja2dyb3VuZDwvdGl0bGU+DQoJPHJlY3QgaWQ9ImNhbnZhc19iYWNrZ3JvdW5kIiB4PSItMSIgeT0iLTEiIGNsYXNzPSJzdDAiIHdpZHRoPSI1ODIiIGhlaWdodD0iNDAyIi8+DQo8L2c+DQo8Zz4NCgk8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+DQoJPHBhdGggaWQ9InN2Z18xIiBjbGFzcz0ic3QxIiBkPSJNNCwxMGgyNGMxLjEsMCwyLTAuOSwyLTJzLTAuOS0yLTItMkg0QzIuOSw2LDIsNi45LDIsOFMyLjksMTAsNCwxMHogTTI4LDE0SDRjLTEuMSwwLTIsMC45LTIsMg0KCQlzMC45LDIsMiwyaDI0YzEuMSwwLDItMC45LDItMlMyOS4xLDE0LDI4LDE0eiBNMjgsMjJINGMtMS4xLDAtMiwwLjktMiwyczAuOSwyLDIsMmgyNGMxLjEsMCwyLTAuOSwyLTJTMjkuMSwyMiwyOCwyMnoiLz4NCjwvZz4NCjwvc3ZnPg0K');
 }
 
-.container,{
-	background-color: #000000 !important;
+.container{
 	text-align: center;
+	background-color: #ffffff !important;
 }
 
 .jumbotron{
 	margin-bottom: -30px;
-	background-color: #000000 !important;
+	background-color: #ffffff !important;
 	text-align: center;
 }
 
