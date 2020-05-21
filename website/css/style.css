@@ -3,9 +3,17 @@ body{
 }
 
 .navbar{
-	background-color: #124559 !important;
+	padding: 0rem 3rem;
+	font-weight: 500;
+	background-color: #ffffff;
+	height: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.navbar-brand img{
+	width: 40px;
+	height: 40px;
+}
 .navbar-light .navbar-nav .active>.nav-link::after {
 	content: '';
 	display: block;
@@ -14,14 +22,15 @@ body{
 	left: 50%;
 	bottom: -2px;
 	height: 2px;
-	background: #ffffff;
+	background: #9BC1C9;
 	transition: all .10s;
 }
 
 .navbar-light .navbar-nav .active>.nav-link:hover::after {
 	width: 100%;
 	left: 0;
-	background: #0072BC !important;
+	background: #124559 !important;
+	color: #124559 !important;
 }
 
 li{
@@ -33,15 +42,37 @@ li{
 	li{
 		padding-right: 0px;
 	}
+
+	.navbar{
+		background-color: #ffffff;
+		box-shadow: none;
+		padding-top: 10px;
+	}
+
+	.navbar-nav{
+	color: #000000;
+	background-color: #ffffff;
+}
+
+	.navbar-brand img{
+		width: 60px;
+		height: 60px;
+}
+
+	.team .card{
+		margin-bottom: 12px;
+	}
+
 }
 
 
-.navbar-light .navbar-nav .active>.nav-link{
-	color: #ffffff;
+.navbar-nav{
+	color: #000000;
+	background-color: #ffffff;
 }
 
 .navbar-light .navbar-nav .active>.nav-link:hover{
-	color: #0072BC !important;
+	color: #124559 !important;
 	text-decoration: none;
 }
 
@@ -66,14 +97,32 @@ li{
 	text-align: center;
 }
 
+.teamhead{
+	text-align: left !important;
+	padding-top: 40px;
+	text-decoration: overline;
+}
+
+.team{
+	padding-top: 50px;
+	margin-bottom: 50px; 
+}
 
 
+.team .card:hover{
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 6px 0 rgba(0, 0, 0, 0.19);
+}
 
+.card{
+	border: none;
+	padding-right: 25px;
+}
 
 .footer{
 	background-color: #0072BC;
 	text-align: center;
 	margin-bottom: 0px;
+	color: #ffffff;
 }
 
 .footer > ul{
@@ -85,8 +134,8 @@ li{
 .footer li{
 	display: inline-block;
 	padding-right: 20px;
+	font-size: 25px;
 }
-
 .footer a{
 	color: #ffffff;
 }
