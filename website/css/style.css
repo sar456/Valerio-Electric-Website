@@ -1,7 +1,7 @@
 body{	
 	margin-top: 100px;
-	background-color: #000000;
-	color: #ffffff;
+	background-color: #ffffff;
+	color: #000000;
 }
 
 .navbar{
@@ -54,6 +54,7 @@ li{
 	.navbar-nav{
 	color: #000000;
 	background-color: #ffffff;
+	width: 100%;
 }
 
 	.navbar-brand img{
@@ -90,14 +91,13 @@ li{
 
 .container{
 	text-align: center;
-	background-color: #000000;
-	color: #ffffff;
+	background-color: #ffffff;
 }
 
 .jumbotron{
 	margin-bottom: -30px;
-	background-color: #000000;
-	color: #ffffff;
+	background-color: #ffffff;
+	color: #000000;
 	text-align: center;
 }
 
