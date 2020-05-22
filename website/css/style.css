@@ -70,6 +70,10 @@ li{
 		display: none;
 	}
 
+	.partner2 .row .col-md-4{
+		margin-bottom: 1.5em;
+	}
+
 }
 
 @media (min-width: 768px){
@@ -79,9 +83,10 @@ li{
 }
 
 
-@media (max-width: 576px){
+@media (max-width: 996px){
 	.partner1 .row img{
-		height: 90%;
+		height: 65%;
+		margin-top: 2.5em;
 	}
 }
 
