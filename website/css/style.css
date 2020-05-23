@@ -149,13 +149,18 @@ li{
 	padding-right: 25px;
 }
 
-.privacy .container{
+.privacy .container, .terms .container{
 	text-align: justify;
 }
 
 .privacy .container ul li{
 	text-align: justify;
 }
+
+.terms .container ul li{
+	text-align: justify;
+}
+
 .footer{
 	background-color: #0072BC;
 	text-align: center;
