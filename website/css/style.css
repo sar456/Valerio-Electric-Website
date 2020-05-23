@@ -74,6 +74,14 @@ li{
 		margin-bottom: 1.5em;
 	}
 
+	.terms .container h1{
+		text-align: left;
+	}
+
+	.privacy .container h1{
+		text-align: left;
+	}
+
 }
 
 @media (min-width: 768px){
@@ -160,6 +168,7 @@ li{
 .terms .container{
 	text-align: justify !important;
 }
+
 .terms .container ul li{
 	text-align: justify;
 }
