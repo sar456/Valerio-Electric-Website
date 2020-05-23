@@ -149,7 +149,7 @@ li{
 	padding-right: 25px;
 }
 
-.privacy .container, .terms .container{
+.privacy .container {
 	text-align: justify;
 }
 
@@ -157,6 +157,9 @@ li{
 	text-align: justify;
 }
 
+.terms .container{
+	text-align: justify; !important;
+}
 .terms .container ul li{
 	text-align: justify;
 }
