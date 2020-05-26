@@ -157,6 +157,11 @@ li{
 	padding-right: 25px;
 }
 
+.contactdetails .row{
+	padding-top: 4em;
+}
+
+
 .privacy .container {
 	text-align: justify;
 }
