@@ -35,7 +35,7 @@ body section:nth-child(2){
 }
 
 .navbar-light .navbar-nav .active>.nav-link{
-	color: #124559;
+	color: #000000;
 }
 
 .navbar-light .navbar-nav .active>.nav-link:hover::after {
