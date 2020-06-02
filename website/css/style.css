@@ -58,7 +58,14 @@ body section:nth-child(2){
     box-shadow: none;
 }
 
-@media (max-width: 768px){
+@media (max-width: 576px){
+	.appdata .row .image{
+		height: 600px !important;
+	}
+
+}
+
+@media screen and (max-width: 768px){
 	.navbar-nav li{
 		padding-right: 0px;
 	}
@@ -100,6 +107,21 @@ body section:nth-child(2){
 	.longplan .col-md-4{
 		margin-bottom: 2em;
 	}
+
+	.appdata .row h2{
+	padding-top: 2em !important;
+}
+	.appdata .row{
+		margin-bottom: -14em;
+	}
+
+	.appdata .row .col-md-6 img{
+	height: 60% !important;
+}
+	.appdata .row .list2, .appdata .row .payment2{
+	display: none;
+}
+
 	.team .card{
 		margin-bottom: 12px;
 	}
@@ -126,8 +148,15 @@ body section:nth-child(2){
 	.ahead1{
 		display: none;
 	}
+
+	.appdata .row .list1, .appdata .row .payment1{
+		display: none;
+}
+	.appdata .row .col-md-6{
+	height: 648px !important;
 }
 
+}
 
 @media (max-width: 996px){
 
@@ -208,7 +237,7 @@ body section:nth-child(2){
 	padding: 2em 2em 0em 2em;
 }
 
-.longplan .col-md-4:nth-) img{
+.longplan .col-md-4:nth-child(1) img{
 	height: 22%;
 }
 
@@ -220,8 +249,19 @@ body section:nth-child(2){
 	height: 45%;
 }
 
-.appdata .row{
-	padding-top: 8em;
+.appdata .row:nth-child(1){
+	margin-top: 2em !important;
+}
+
+
+.appdata .row h2{
+	padding-top: 5em;
+}
+
+.appdata .row img{
+	height: 75% !important;
+	border: 1px solid black;
+	border-radius: 20px;
 }
 
 .partner2, .partner2 .container, .partner2 .jumbotron{
