@@ -232,9 +232,12 @@ body section:nth-child(2){
 	text-align: left;
 }
 
+.station .row div:nth-child(1) h1{
+	font-size: 3rem;
+}
 .station .row img{
 	height: 100%;
-	width: 100%;
+	width: 115%;
 }
 
 .ourstory h2, .ourstory1 h2, .longplan h2, .aim h2{
