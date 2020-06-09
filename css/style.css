@@ -4,6 +4,9 @@ body{
 	color: #000000;
 }
 
+body p{
+	font-size: 1.3em;
+}
 
 body section:nth-child(2){
 	margin-top: -1em;
@@ -36,6 +39,7 @@ body section:nth-child(2){
 
 .navbar-light .navbar-nav .active>.nav-link{
 	color: #000000;
+	font-size: 1.3em;
 }
 
 .navbar-light .navbar-nav .active>.nav-link:hover::after {
@@ -90,6 +94,7 @@ body section:nth-child(2){
 
 	.station .row div:nth-child(1){
 		padding-top: 0em !important;
+		text-align: center !important;
 }
 
 	.station .row div img{
@@ -226,7 +231,11 @@ body section:nth-child(2){
 	text-align: center;
 }
 
-
+.station{
+	margin-top: -3em !important;
+	margin-right: 5em;
+	margin-left: 5em;
+}
 .station .row div:nth-child(1){
 	padding-top: 3em;
 	text-align: left;
@@ -237,7 +246,7 @@ body section:nth-child(2){
 }
 .station .row img{
 	height: 100%;
-	width: 115%;
+	width: 100%;
 }
 
 .ourstory h2, .ourstory1 h2, .longplan h2, .aim h2{
