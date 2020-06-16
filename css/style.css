@@ -98,7 +98,8 @@ body section:nth-child(2){
 }
 
 	.station .row div img{
-		display: none;
+		width: 90%;
+		height: 90%;
 }
 
 .station{
@@ -180,13 +181,14 @@ body section:nth-child(2){
 		background-image: url('../images/Bgrnd 1.png');
 }
 
+	.ourstory1 .container .row img{
+		height: 90%;
+		width: 90%;
+	}
+
 	.partner1 .row img{
 		height: 65%;
 		margin-top: 2.5em;
-	}
-
-	.station .row img{
-		width: 125% !important;
 	}
 
 	.station .row div:nth-child(1){
